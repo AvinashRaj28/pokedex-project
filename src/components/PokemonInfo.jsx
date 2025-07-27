@@ -45,7 +45,7 @@ const PokemonInfo = () => {
   useEffect(() => {
     const fetchPokemon = async () => {
       try {
-        const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${id}`);
+        const response = await fetch(https://pokeapi.co/api/v2/pokemon/${id});
         const result = await response.json();
         setPokemon(result);
         converter(result.height);
